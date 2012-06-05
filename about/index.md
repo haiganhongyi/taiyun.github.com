@@ -3,7 +3,7 @@ layout: default
 title:  Taiyun Wei
 ---
 
-Lanfeng Pan is currently a master student. 
+Taiyun Wei is currently a master student. 
 
 Education:
 
