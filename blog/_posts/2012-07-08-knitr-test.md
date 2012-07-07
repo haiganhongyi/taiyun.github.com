@@ -1,13 +1,12 @@
+
+
+
+
 ---
 layout: post
-title: knitr动画测试2
+title: knitr动画测试
 author: <a href="http://taiyun.github.com/">Taiyun</a>
 ---
-
-
-
-
-
 
 
 
@@ -48,7 +47,7 @@ corrplot(cor(mtcars), order = "hclust")
   (function($) {
     $(document).ready(function() {
       $("#test_r2swf").scianimator({
-          "images": ["test-r2swf1.svg", "test-r2swf2.svg", "test-r2swf3.svg"],
+          "images": ["http://taiyun.github.com/blog/pic/test-r2swf1.svg", "http://taiyun.github.com/blog/pic/test-r2swf2.svg", "http://taiyun.github.com/blog/pic/test-r2swf3.svg"],
           "delay": 1000,
           "controls": ["first", "previous", "play", "next", "last", "loop", "speed"],
       });
@@ -98,7 +97,7 @@ corrplot(cor(mtcars), order = "hclust")
   (function($) {
     $(document).ready(function() {
       $("#test_r2").scianimator({
-          "images": ["test-r21.svg", "test-r22.svg", "test-r23.svg"],
+          "images": ["http://taiyun.github.com/blog/pic/test-r21.svg", "http://taiyun.github.com/blog/pic/test-r22.svg", "http://taiyun.github.com/blog/pic/test-r23.svg"],
           "delay": 1000,
           "controls": ["first", "previous", "play", "next", "last", "loop", "speed"],
       });
@@ -137,7 +136,7 @@ library(ggplot2)
 qplot(wt, mpg, data = mtcars) + facet_grid(vs ~ am, label = label_both)
 {% endhighlight %}
 
-<img src="test-r1.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="test-r2.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
+<img src="http://taiyun.github.com/blog/pic/test-r1.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="http://taiyun.github.com/blog/pic/test-r2.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
 
 
 
