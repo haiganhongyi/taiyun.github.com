@@ -7,9 +7,6 @@ author: <a href="http://taiyun.github.com/">Taiyun</a>
 
 
 
-
-
-
 ```r
 set.seed(123)
 rnorm(5)
@@ -39,7 +36,7 @@ corrplot(cor(mtcars), order = "hclust")
   (function($) {
     $(document).ready(function() {
       $("#test_r2swf").scianimator({
-          "images": ["test-r2swf1.svg", "test-r2swf2.svg", "test-r2swf3.svg"],
+          "images": ["http://taiyun.github.com/blog/pic/test-r2swf1.svg", "http://taiyun.github.com/blog/pic/test-r2swf2.svg", "http://taiyun.github.com/blog/pic/test-r2swf3.svg"],
           "delay": 1000,
           "controls": ["first", "previous", "play", "next", "last", "loop", "speed"],
       });
@@ -115,7 +112,7 @@ library(ggplot2)
 qplot(wt, mpg, data = mtcars) + facet_grid(vs ~ am, label = label_both)
 ```
 
-<img src="test-r1.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="http://taiyun.github.com/blog/pic/test-r2.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
+<img src="http://taiyun.github.com/blog/pic/test-r1.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="http://taiyun.github.com/blog/pic/test-r2.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
 
 
 
