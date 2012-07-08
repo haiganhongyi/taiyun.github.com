@@ -10,28 +10,36 @@ author: <a href="http://taiyun.github.com/">Taiyun</a>
 
 
 
-```r
+{% highlight r %}
 set.seed(123)
 rnorm(5)
-```
+{% endhighlight %}
 
-```
+
+
+{% highlight text %}
 [1] -0.56048 -0.23018  1.55871  0.07051  0.12929
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 x <- 1:10
 library(corrplot)
 corrplot(cor(mtcars))
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 corrplot(cor(mtcars), order = "AOE")
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 corrplot(cor(mtcars), order = "hclust")
-```
+{% endhighlight %}
 
 
 <div class="scianimator"><div id="test_r2swf" style="display: inline-block;"></div></div>
@@ -52,28 +60,36 @@ corrplot(cor(mtcars), order = "hclust")
 
 
 
-```r
+{% highlight r %}
 set.seed(123)
 rnorm(5)
-```
+{% endhighlight %}
 
-```
+
+
+{% highlight text %}
 [1] -0.56048 -0.23018  1.55871  0.07051  0.12929
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 x <- 1:10
 library(corrplot)
 corrplot(cor(mtcars))
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 corrplot(cor(mtcars), order = "AOE")
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 corrplot(cor(mtcars), order = "hclust")
-```
+{% endhighlight %}
 
 
 <div class="scianimator"><div id="test_r2" style="display: inline-block;"></div></div>
@@ -90,40 +106,45 @@ corrplot(cor(mtcars), order = "hclust")
   })(jQuery);
 </script>
 
-```r
+
+{% highlight r %}
 ## setwd('G:');knitr::knit2html('knitr-test001.Rmd')
-```
+{% endhighlight %}
 
 
 
 
 
-```r
+{% highlight r %}
 set.seed(123)
 rnorm(5)
-```
+{% endhighlight %}
 
-```
+
+
+{% highlight text %}
 [1] -0.56048 -0.23018  1.55871  0.07051  0.12929
-```
+{% endhighlight %}
 
-```r
+
+
+{% highlight r %}
 x <- 1:10
 library(corrplot)
 corrplot(cor(mtcars), order = "AOE")
 library(ggplot2)
 qplot(wt, mpg, data = mtcars) + facet_grid(vs ~ am, label = label_both)
-```
+{% endhighlight %}
 
-<img src="http://taiyun.github.com/blog/pic/test-r1.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="http://taiyun.github.com/blog/pic/test-r2.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
-
-
+<img src="http://taiyun.github.com/blog/pic/test-r1.svg" width="480px" height="480px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="http://taiyun.github.com/blog/pic/test-r2.svg" width="480px" height="480px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
 
 
 
-$latex P(E) = {n \choose k} p^k (1-p)^{n-k}$
 
-$$latex
+
+$ P(E) = {n \choose k} p^k (1-p)^{n-k} $
+
+$$
   \begin{aligned}
   \dot{x} & = \sigma(y-x) \\
   \dot{y} & = \rho x - y - xz \\
