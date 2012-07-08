@@ -10,39 +10,31 @@ author: <a href="http://taiyun.github.com/">Taiyun</a>
 
 
 
-{% highlight r %}
+```r
 set.seed(123)
 rnorm(5)
-{% endhighlight %}
+```
 
-
-
-{% highlight text %}
+```
 [1] -0.56048 -0.23018  1.55871  0.07051  0.12929
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 x <- 1:10
 library(corrplot)
 corrplot(cor(mtcars))
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 corrplot(cor(mtcars), order = "AOE")
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 corrplot(cor(mtcars), order = "hclust")
-{% endhighlight %}
+```
 
 
-<div class="scianimator"><div id="#test_r2swf" style="display: inline-block;"></div></div>
+<div class="scianimator"><div id="test_r2swf" style="display: inline-block;"></div></div>
 <script type="text/javascript">
   (function($) {
     $(document).ready(function() {
@@ -60,39 +52,31 @@ corrplot(cor(mtcars), order = "hclust")
 
 
 
-{% highlight r %}
+```r
 set.seed(123)
 rnorm(5)
-{% endhighlight %}
+```
 
-
-
-{% highlight text %}
+```
 [1] -0.56048 -0.23018  1.55871  0.07051  0.12929
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 x <- 1:10
 library(corrplot)
 corrplot(cor(mtcars))
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 corrplot(cor(mtcars), order = "AOE")
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 corrplot(cor(mtcars), order = "hclust")
-{% endhighlight %}
+```
 
 
-<div class="scianimator"><div id="#test_r2" style="display: inline-block;"></div></div>
+<div class="scianimator"><div id="test_r2" style="display: inline-block;"></div></div>
 <script type="text/javascript">
   (function($) {
     $(document).ready(function() {
@@ -106,35 +90,30 @@ corrplot(cor(mtcars), order = "hclust")
   })(jQuery);
 </script>
 
-
-{% highlight r %}
+```r
 ## setwd('G:');knitr::knit2html('knitr-test001.Rmd')
-{% endhighlight %}
+```
 
 
 
 
 
-{% highlight r %}
+```r
 set.seed(123)
 rnorm(5)
-{% endhighlight %}
+```
 
-
-
-{% highlight text %}
+```
 [1] -0.56048 -0.23018  1.55871  0.07051  0.12929
-{% endhighlight %}
+```
 
-
-
-{% highlight r %}
+```r
 x <- 1:10
 library(corrplot)
 corrplot(cor(mtcars), order = "AOE")
 library(ggplot2)
 qplot(wt, mpg, data = mtcars) + facet_grid(vs ~ am, label = label_both)
-{% endhighlight %}
+```
 
 <img src="http://taiyun.github.com/blog/pic/test-r1.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> <img src="http://taiyun.github.com/blog/pic/test-r2.svg" width="800px" height="800px"  alt="plot of chunk test-r" title="plot of chunk test-r" /> 
 
