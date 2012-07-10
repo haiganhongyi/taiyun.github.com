@@ -1,3 +1,7 @@
+
+
+
+
 ---
 layout: post
 title: Brownian Motion
@@ -12,8 +16,19 @@ The function `brownian.motion()` has illustrated the phenomenon of Random Walk o
 {% highlight r %}
 library(animation)
 ani.options(interval = 0.05, nmax = 100)
-par(mar = c(3, 3, 1, 0.5), mgp = c(2, 0.5, 0), tcl = -0.3, cex.axis = 0.8, cex.lab = 0.8, 
-    cex.main = 1)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## animation option 'nmax' changed: 50 --> 100
+{% endhighlight %}
+
+
+
+{% highlight r %}
+par(mar = c(3, 3, 1, 0.5), mgp = c(2, 0.5, 0), tcl = -0.3, bg = "white", cex.axis = 0.8, 
+    cex.lab = 0.8, cex.main = 1)
 brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow")
 {% endhighlight %}
 
